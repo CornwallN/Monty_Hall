@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px auto;
+  font-size: 14px;
+  color: #666666;
+  font-size: 16px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background-color: #fdfdfd;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+button {
+	width: 100px;
+	height: 200px;
+	border-radius: 10px;
+	padding: 0;
+	border:none;
+	background: gray;
+}
+
+
+button:hover {
+	cursor: pointer;
+	box-shadow:none;
+	background: aliceblue;
+}
+
+ul {
+	position: relative;
+	left: -20px;
+}
